@@ -1,0 +1,55 @@
+[submodule "data/dxy-data"]
+	path = data/dxy-data
+	url = https://github.com/BlankerL/DXY-COVID-19-Data
+[submodule "data/jhu-data"]
+	path = data/jhu-data
+	url = https://github.com/CSSEGISandData/COVID-19
+[submodule "data/france-data"]
+	path = data/france-data
+	url = https://github.com/cedricguadalupe/FRANCE-COVID-19
+[submodule "data/italy-dpc-data"]
+	path = data/italy-dpc-data
+	url = https://github.com/pcm-dpc/COVID-19
+[submodule "data/eu-data"]
+	path = data/eu-data
+	url = https://github.com/covid19-eu-zh/covid19-eu-data
+[submodule "data/spain-data"]
+	path = data/spain-data
+	url = https://github.com/datadista/datasets
+    ignore = dirty
+[submodule "data/switzerland-data"]
+	path = data/switzerland-data
+	url = https://github.com/daenuprobst/covid19-cases-switzerland
+[submodule "data/uk-data"]
+	path = data/uk-data
+	url = https://github.com/tomwhite/covid-19-uk-data
+[submodule "data/portugal-data"]
+	path = data/portugal-data
+	url = https://github.com/dssg-pt/covid19pt-data
+[submodule "data/brazil-data"]
+	path = data/brazil-data
+	url = https://github.com/elhenrico/covid19-Brazil-timeseries
+[submodule "data/malaysia-data"]
+	path = data/malaysia-data
+	url = https://github.com/ynshung/covid-19-malaysia
+[submodule "data/belgium-data"]
+	path = data/belgium-data
+	url = https://github.com/eschnou/covid19-be
+[submodule "data/russia-data"]
+	path = data/russia-data
+	url = https://github.com/grwlf/COVID-19_plus_Russia
+[submodule "data/latin-america-data"]
+	path = data/latin-america-data
+	url = https://github.com/DataScienceResearchPeru/covid-19_latinoamerica
+[submodule "data/ireland-data"]
+	path = data/ireland-data
+	url = https://github.com/andrewm4894/ireland_covid19_data
+[submodule "data/south-africa-data"]
+	path = data/south-africa-data
+	url = https://github.com/dsfsi/covid19za
+[submodule "data/philippines-data"]
+	path = data/philippines-data
+	url = https://github.com/gigerbytes/ncov-ph-data
+[submodule "data/pakistan-data"]
+	path = data/pakistan-data
+	url = https://github.com/ShahrozTanveer/covid19-pakistan
