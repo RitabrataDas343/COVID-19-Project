@@ -1,10 +1,8 @@
-## COVID-19 Coronavirus Map / 新型冠状病毒肺炎疫情图
+## COVID-19 Coronavirus Map 
 
 <img src="https://raw.githubusercontent.com/stevenliuyi/covid19/master/public/cover.png" width="400" />
 
 COVID-19 (2019-nCOV / SARS-CoV-2) Coronavirus Map (https://covid19.health) is an interactive, animated map for the COVID-19 coronavirus outbreak.
-
-The map is based on multiple sources (see below for details). If you are interested, the integrated dataset can be found [here](https://github.com/stevenliuyi/covid19/blob/master/public/data/all.json). Note that numbers in different data sources may not match with each other exactly.
 
 Pull requests are welcome. If you'd like to support the work and buy me a ☕, I greatly appreciate it!
 
@@ -41,3 +39,6 @@ Pull requests are welcome. If you'd like to support the work and buy me a ☕, I
 
 ### Maps
 Original map shapefiles are from [GADM](https://gadm.org/), which are converted to TopoJSON files using [mapshaper](https://github.com/mbloch/mapshaper).
+
+### Acknowledgements
+This repository is solely owned by Ritabrata Das.
