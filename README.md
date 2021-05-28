@@ -1,12 +1,55 @@
-## COVID-19 Coronavirus Map 
+# COVID-19 Coronavirus Map 
 
-<img src="https://raw.githubusercontent.com/stevenliuyi/covid19/master/public/cover.png" width="400" />
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/uses-git.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/uses-js.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)<br>
 
-COVID-19 (2019-nCOV / SARS-CoV-2) Coronavirus Map (https://covid19.health) is an interactive, animated map for the COVID-19 coronavirus outbreak.
+> This app will allow to view COVID-19 related data of various countries using the various data sources mentioned below.
 
-Pull requests are welcome. If you'd like to support the work and buy me a ☕, I greatly appreciate it!
+##  Starting the Project
 
-<a href="https://www.buymeacoffee.com/stevenliuyi" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
+1. Clone the project in the virtual environment directory.
+
+    ```
+    git clone https://github.com/RitabrataDas343/COVID-19-Project.git
+    cd COVID-19-Project
+    ```
+
+2. You should ensure you have Yarn and [Bundler](http://bundler.io/) installed:
+
+   ```
+   sudo apt-get install npm 
+   npm install --global yarn
+   gem install bundler
+   ```
+
+3. Build the project on the local system.
+
+    ```
+    make
+    make install
+    make serve
+    ```
+    
+4. On Windows, `make` is not available, so you need to execute `bundle` and `jekyll` directly:
+
+   ```sh
+   bundle install
+   bundle exec jekyll serve --incremental
+   ```
+   
+5. Run the Project
+
+    ```
+    npm start
+    ```
+    
+6. Head to server http://localhost:3000
+
 
 ### Data Sources
 - Worldwide/United States/Australia/Canada: [2019 Novel Coronavirus COVID-19 (2019-nCoV) Data Repository by Johns Hopkins CSSE](https://github.com/CSSEGISandData/COVID-19)
@@ -40,5 +83,12 @@ Pull requests are welcome. If you'd like to support the work and buy me a ☕, I
 ### Maps
 Original map shapefiles are from [GADM](https://gadm.org/), which are converted to TopoJSON files using [mapshaper](https://github.com/mbloch/mapshaper).
 
-### Acknowledgements
-This repository is solely owned by Ritabrata Das.
+## Technology 
+
+This app uses the following technologies:
+
+<img alt="NodeJS" src="https://img.shields.io/badge/node.js-%2343853D.svg?style=for-the-badge&logo=node-dot-js&logoColor=white"/> <img alt="JavaScript" src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/> <img alt="CSS3" src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"/> <img alt="Python" src="https://img.shields.io/badge/python-%2314354C.svg?style=for-the-badge&logo=python&logoColor=white"/> <img alt="Shell Script" src="https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white"/> <img alt="Visual Studio Code" src="https://img.shields.io/badge/VisualStudioCode-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white"/> <img alt="Git" src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white"/> <img alt="GitHub" src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/> <img alt="NumPy" src="https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white" /> <img alt="Docker" src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white"/>
+
+## Compatible on
+
+<img alt="Ubuntu" src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" /> <img alt="Debian" src="https://img.shields.io/badge/Debian-D70A53?style=for-the-badge&logo=debian&logoColor=white" /> <img alt="Windows 10" src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" /> <img alt="Linux" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"> <img alt="Fedora" src="https://img.shields.io/badge/Fedora-294172?style=for-the-badge&logo=fedora&logoColor=white"> 
